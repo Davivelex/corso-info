@@ -18,8 +18,9 @@ def togli_carte():
     for i in range(len(pile)):
         pile[i] -= 1
 
-    for n in list(filter(lambda x: x != 0, pile)):
-        nl.append(n)
+    for n in pile:
+        if n != 0:
+            nl.append(n)
 
     pile.clear()
     for n in nl:
@@ -29,9 +30,7 @@ def togli_carte():
 
 
 riempi_pile()
-prev = []
 
-while prev != pile:
-    prev = pile.copy()
+while pile != [1, 2, 3, 4, 5, 6, 7, 8, 9]:
     togli_carte()
     print(pile)
