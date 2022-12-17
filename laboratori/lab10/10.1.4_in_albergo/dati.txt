@@ -1,0 +1,15 @@
+Doddo;Pernottamento;100;20/12/20
+Pier;Pernottamento;250;20/12/20
+Davide;Ristorante;400;20/12/20
+Doddo;Ristorante;150;20/12/20
+Davide;Pernottamento;300;20/12/20
+Doddo;Ristorante;50;20/12/20
+Pier;Piscina;100;20/12/20
+Davide;Pernottamento;500;20/12/20
+Doddo;Spa;300;20/12/20
+Davide;Spa;100;20/12/20
+Pier;Piscina;100;20/12/20
+Doddo;Pernottamento;100;20/12/20
+Fede;Pernottamento;100;20/12/20
+Pier;Ristorante;100;20/12/20
+Fede;Spa;100;20/12/20
