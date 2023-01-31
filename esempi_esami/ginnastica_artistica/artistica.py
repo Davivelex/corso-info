@@ -40,6 +40,7 @@ def main():
 
     classifica_f = list(filter(lambda x: x['sesso'] == 'F', atleti))
     classifica_f = list(sorted(classifica_f, key=lambda x: -x['punteggio']))
+    print(classifica_f)
     vincitrice = classifica_f[0]
 
     classifica_n = list()
